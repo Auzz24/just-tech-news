@@ -4,14 +4,26 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.16.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auzz24/just-tech-news.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Auzz24/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/Auzz24/just-tech-news#readme"
 }
